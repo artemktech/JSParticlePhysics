@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #4f5969;
+}
+
+#particle_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin:auto;
+}
+
+#particle_canvas {
+    position:absolute;
+    height:100vh;
+    width:100vw;
+}
+
+#particle_container img {
+    margin:auto;
+    height:100px;
+    width:100px;
+    fill: #7ed0fc;
+}
+
+.center-x {
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.center-y {
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centered {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    display: block;
+}
